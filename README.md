@@ -22,8 +22,8 @@ The website highlights top destinations in Pakistan — from the snowy peaks of 
 ---
 
 ## 👥 Contributors  
-| Name | Role |
-|------|------|
+| Name |
+|------|
 | **Afham Ayub** | 
 | **Aliza Saeed** | 
 | **Sania Irshad** | 
@@ -32,7 +32,6 @@ The website highlights top destinations in Pakistan — from the snowy peaks of 
 
 ## 💡 Acknowledgment  
 Created as part of a semester project to learn the basics of **front-end web development**.  
-We focused on simplicity, creativity, and teamwork.  
-
+ 
 ---
 
