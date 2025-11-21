@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Explore Pakistan | Simple Tours</title>
+<link rel="stylesheet" href="style_tour.css">
+</head>
+<body>
+
+<!-- 
+   navigation
+ -->
+
+<nav>
+    <div class="logo">VISIT PAKISTAN</div>
+    <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="contact_tour.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- 
+   header 
+ -->
+
+<header style="background-image: url('./images1/bg1.jpg');">
+    <h1>LAND OF WONDERS</h1>
+    <p>EXPERIENCE THE MAJESTY OF THE HIMALAYAS AND THE CULTURE OF THE MUGHALS.</p>
+    <a href="#destinations" class="btn-main">View Destinations</a>
+</header>
+
+<!-- 
+   about us
+ -->
+
+<section id="about">
+    <div class="section-title"><h2>Who We Are</h2></div>
+    <p style="text-align:center; max-width:800px; margin:0 auto; font-size: 1.3rem; color: rgb(10, 121, 34);">
+        We are Pakistan's premier tourism agency, dedicated to showing you the hidden gems of our beautiful country.
+    </p>
+</section>
+
+<!-- 
+   services
+ -->
+
+<section id="services">
+    <div class="section-title"><h2>Our Services</h2></div>
+    <div class="services-grid">
+        <div class="service-card"><h3>Trekking</h3><p style="color: green;">Guided tours to Fairy Meadows and Basecamps.</p></div>
+        <div class="service-card"><h3>Transport</h3><p style="color: green;">Safe 4x4 travel for Northern areas.</p></div>
+        <div class="service-card"><h3>Hotels</h3><p style="color: green;">Luxury accommodation bookings.</p></div>
+    </div>
+</section>
+
+<!-- 
+   places
+ -->
+
+<section id="destinations">
+    <div class="section-title"><h2>Famous Places</h2><p style="color: green; font-size: 1.2rem;">Click to Book NOW!</p></div>
+    <div class="places-grid">
+        
+        <div class="place-card" style="background-image:url('./images1/hunza.jpg');" onclick="openModal('Hunza Valley','Hunza offers breathtaking views of Rakaposhi and historic forts.')">
+            <div class="place-info"><h3>Hunza Valley</h3><p>Gilgit-Baltistan</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/fairy.jpg');" onclick="openModal('Fairy Meadows','A lush green plateau at the base of Nanga Parbat.')">
+            <div class="place-info"><h3>Fairy Meadows</h3><p>Diamer District</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/badshshi.jpg');" onclick="openModal('Badshahi Mosque','A Mughal era masterpiece in Lahore.')">
+            <div class="place-info"><h3>Badshahi Mosque</h3><p>Lahore</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/kashmir.jpg');" onclick="openModal('Azad Kashmir','Breathtaking mountain views and history.')">
+            <div class="place-info"><h3>Azad Kashmir</h3><p>Jammu Kashmir</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/kallar.jpg');" onclick="openModal('Kallar Kahar','Known for natural beauty and a saltwater lake.')">
+            <div class="place-info"><h3>Kallar Kahar</h3><p>Chakwal Punjab</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/margalla.jpg');" onclick="openModal('Margalla Hills','Beautiful hills near Islamabad.')">
+            <div class="place-info"><h3>Margalla Hills</h3><p>Islamabad</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/wahgha.jpg');" onclick="openModal('Wahgah Border','Watch the border ceremonies.')">
+            <div class="place-info"><h3>Wahgah Border</h3><p>Punjab</p></div>
+        </div>
+       
+        <div class="place-card" style="background-image:url('./images1/deosai.jpg');" onclick="openModal('Deosai National Park','An alpine plateau of exceptional beauty.')">
+            <div class="place-info"><h3>Deosai National Park</h3><p>Skardu District</p></div>
+       
+        </div>
+    </div>
+</section>
+
+<!-- 
+   popup
+ -->
+<div class="modal-container" id="infoModal">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <h2 id="modal-title" style="margin-bottom: 15px;">Title</h2>
+        <p id="modal-desc" style="margin-bottom: 20px;">Description</p>
+        <button class="btn-main" onclick="closeModal()">Book Trip</button>
+    </div>
+</div>
+
+<script src="script_tour.js"></script>
+</body>
+</html>
